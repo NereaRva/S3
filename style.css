@@ -1,0 +1,107 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h5{
+    text-align: center;
+}
+.activo{
+    font-weight: 600;
+}
+.inactivo{
+    color: rgb(172, 170, 170);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.enlaces{
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+}
+#mujer{
+    font-weight: 600;
+}
+#promociones{
+    color: orangered;
+}
+#ropa{
+    font-weight: 600;
+}
+#hombre, mujer{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+aside{
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+.subtitulo{
+    font-weight: lighter;
+}
+.form{
+    display: block;
+    text-align: center;
+}
+.contacto{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid rgb(207, 203, 203);
+    padding-bottom: 20px;
+}
+#movil{
+    color: aquamarine;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   
+}
+.img_container{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img{
+    width: 80%;
+}
+ul{
+    padding: 0;
+}
+p + p{
+    font-weight: 600;
+}
+.look{
+    display: flex;
+    justify-content: end;
+}
+.buscar input{
+    border: none;
+    border-bottom: 1px solid;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.form{
+    border-top: 1px solid rgb(207, 203, 203);
+    border-bottom: 1px solid rgb(207, 203, 203);
+    padding: 20px;
+}
